@@ -1,4 +1,5 @@
 ![Banner](https://cdn.discordapp.com/attachments/596521261874675723/811320565352497152/AssetSearchBanner.jpg)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
 # AssetID Search
 
