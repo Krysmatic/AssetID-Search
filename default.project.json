@@ -1,0 +1,15 @@
+{
+  "name": "AssetIdSearch",
+    "tree": {
+    "$className": "DataModel",
+    "StarterGui": {
+      "$className": "StarterGui",
+      "AssetIdSearch": {
+        "$className": "Folder",
+      	"Plugin": {
+        	"$path": "src"
+      	}
+      }
+    }
+  }
+}
