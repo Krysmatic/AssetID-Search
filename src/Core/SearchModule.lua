@@ -12,10 +12,10 @@ function SearchModule:SearchGame(directory, SEARCH_ID)
 		print("[ASSET ID: " .. SEARCH_ID .. "] Found " .. typeName .. " in " .. directory.Name)
 
 		-- Get all parent names
-		local function GetParent(model)
-			if model.Parent then
-				GetParent(model.Parent)
-				table.insert(output, " >> " .. model.Name)
+		local function GetParent(modelobj)
+			if modelobj.Parent then
+				GetParent(modelobj.Parent)
+				table.insert(output, " >> " .. modelobj.Name)
 			end
 		end
 

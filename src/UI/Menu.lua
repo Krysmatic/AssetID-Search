@@ -1,7 +1,6 @@
 -- Krysmatic
 
 local src = script.parent.parent
-local Players = game:GetService("Players")
 local Roact = require(src.Roact)
 
 local Menu = Roact.Component:extend("Menu")
