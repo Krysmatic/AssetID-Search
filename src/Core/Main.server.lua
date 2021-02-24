@@ -25,7 +25,7 @@ local widget = DockWidgetPluginGuiInfo.new(
 -- Create new widget GUI
 local mainWidget = plugin:CreateDockWidgetPluginGui("MainWidget", widget)
 
-local menuObj = Roact.mount(Roact.createElement(Menu), mainWidget, "Menu")
+local _menuObj = Roact.mount(Roact.createElement(Menu), mainWidget, "Menu")
 
 local function onPluginButtonClicked()
 	open = not open

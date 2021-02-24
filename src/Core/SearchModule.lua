@@ -11,7 +11,7 @@ function SearchModule:SearchGame(directory, SEARCH_ID)
 		print("------------------------------------------------------------------------------------")
 		print("[ASSET ID: " .. SEARCH_ID .. "] Found " .. typeName .. " in " .. directory.Name)
 
-		-- Get all parent names
+		-- Get all parent names 
 		local function GetParent(modelobj)
 			if modelobj.Parent then
 				GetParent(modelobj.Parent)
