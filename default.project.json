@@ -1,0 +1,27 @@
+{
+  "name": "AssetIdSearch",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "AssetIDSearch": {
+        "$className": "Folder",
+
+        "Core": {
+          "$className": "Folder",
+          "$path": "src/Core"
+        },
+
+        "Roact": {
+          "$path": "vendor/Roact/src"
+        },
+
+        "UI": {
+          "$path": "src/UI"
+        }
+      }
+    }
+  }
+}
