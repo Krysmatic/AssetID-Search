@@ -20,6 +20,6 @@ jobs:
       with:
           version: "^1.0.0"
           token: ${{ SECRETS.GITHUB_TOKEN }}
-    - name: Lint
+    - name: Run Selene
       run: |
-        selene ./
+        selene src/
