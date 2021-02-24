@@ -1,0 +1,3 @@
+[tools]
+selene = { source = "Kampfkarren/selene", version = "x" }
+remodel = { source = "rojo-rbx/remodel", version = "0.6.1" }

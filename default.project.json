@@ -1,14 +1,26 @@
 {
   "name": "AssetIdSearch",
-    "tree": {
+  "tree": {
     "$className": "DataModel",
-    "StarterGui": {
-      "$className": "StarterGui",
-      "AssetIdSearch": {
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "AssetIDSearch": {
         "$className": "Folder",
-      	"Plugin": {
-        	"$path": "src"
-      	}
+
+        "Core": {
+          "$className": "Folder",
+          "$path": "src/Core"
+        },
+
+        "Roact": {
+          "$path": "src/Roact"
+        },
+
+        "UI": {
+          "$path": "src/UI"
+        }
       }
     }
   }
