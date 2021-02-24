@@ -3,7 +3,6 @@
 
 local src = script.parent.parent
 local Roact = require(src.Roact)
-
 local Menu = require(src.UI.Menu)
 
 local open = false
