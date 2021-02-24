@@ -15,7 +15,7 @@
         },
 
         "Roact": {
-          "$path": "src/Roact"
+          "$path": "vendor/Roact"
         },
 
         "UI": {
