@@ -1,4 +1,4 @@
--- Krysmatic
+-- Krysiene
 
 local src = script.parent.parent
 local Roact = require(src.Roact)
@@ -15,17 +15,17 @@ local OFF_COLOR = Color3.fromRGB(84,84,84)
 local TEXT_PROPS = {
     Title = {
         Position = UDim2.new(0.5,0,0.031,0),
-        Size = UDim2.new(0.8,0,0.115,0), 
+        Size = UDim2.new(0.8,0,0.115,0),
         Color = BLUE_COLOR,
         ZIndex = 100,
-        Text = "AssetID Search"
+        Text = "AssetID Search",
     },
     Credit = {
         Position = UDim2.new(0.5,0,0.13,0),
         Size = UDim2.new(0.3,0,0.038,0),
         Color = Color3.fromRGB(255,255,255),
         ZIndex = 100,
-        Text = "By Krysmatic"
+        Text = "By Krysiene"
     },
     Information = {
         Position = UDim2.new(0.5,0,0.219,0),
